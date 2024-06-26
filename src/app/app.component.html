@@ -1,0 +1,16 @@
+﻿<!-- Navbar  -->
+<app-navbar></app-navbar> 
+
+<div class="container-fluid">
+ 
+  <!-- global alert -->
+  <alert></alert>
+
+  <!-- Back button -->
+  <app-back-button *ngIf="showBackButton"></app-back-button>
+
+  <!-- main router outlet -->
+  <router-outlet></router-outlet>
+</div>
+<!-- Footer -->
+<app-footer></app-footer>
